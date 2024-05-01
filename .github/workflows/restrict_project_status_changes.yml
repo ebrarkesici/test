@@ -15,7 +15,7 @@ jobs:
           # For example, ensuring that only authorized users can change project status
           # In this example, you can add a command to check authorization
 
-          if [ "$USER" != "authorized_user" ]; then
+          if [ "$USER" != "husamettinarabaci" ]; then
             echo "Unauthorized user. Only authorized team leads can change project status."
             exit 1
           fi
